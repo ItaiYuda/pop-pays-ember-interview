@@ -2,7 +2,7 @@
 
 module.exports = function (environment) {
   let ENV = {
-    modulePrefix: 'pop-pays',
+    modulePrefix: 'pop-pays-ember-interview',
     environment,
     rootURL: '/',
     locationType: 'history',

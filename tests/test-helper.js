@@ -1,5 +1,5 @@
-import Application from 'pop-pays/app';
-import config from 'pop-pays/config/environment';
+import Application from 'pop-pays-ember-interview/app';
+import config from 'pop-pays-ember-interview/config/environment';
 import * as QUnit from 'qunit';
 import { setApplication } from '@ember/test-helpers';
 import { setup } from 'qunit-dom';

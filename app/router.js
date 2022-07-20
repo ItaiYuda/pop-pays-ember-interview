@@ -1,5 +1,5 @@
 import EmberRouter from '@ember/routing/router';
-import config from 'pop-pays/config/environment';
+import config from 'pop-pays-ember-interview/config/environment';
 
 export default class Router extends EmberRouter {
   location = config.locationType;
