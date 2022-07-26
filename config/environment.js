@@ -6,6 +6,7 @@ module.exports = function (environment) {
     environment,
     rootURL: '/',
     locationType: 'history',
+    weatherApiKey: '1PPTgllut0ucEAnOJ80r8ms5qn3fItAs',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
@@ -42,6 +43,6 @@ module.exports = function (environment) {
   if (environment === 'production') {
     // here you can enable a production-specific feature
   }
-
+  ENV.weatherApiKey = process.env['WEATHER_API_KEY'];
   return ENV;
 };

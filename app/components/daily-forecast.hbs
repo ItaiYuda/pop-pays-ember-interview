@@ -1,0 +1,6 @@
+<div class='daily-card'>
+  <div>{{date-to-string @forecast.date}}</div>
+  <div>{{convert-temperature @forecast.minTemperature}} - {{convert-temperature @forecast.maxTemperature}}</div>
+  <div>{{@forecast.description}}</div>
+  <img src={{icon-path @forecast.iconId}} alt='svg'/>
+</div>

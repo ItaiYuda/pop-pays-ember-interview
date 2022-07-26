@@ -1,0 +1,6 @@
+<button {{on 'click' this.onBack}} >back to insert new city key</button>
+<div class="forecast-container">
+  {{#each @forecasts as |forecast|}}
+    <DailyForecast @forecast={{forecast}} />
+  {{/each}}
+</div>
