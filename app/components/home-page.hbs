@@ -1,0 +1,8 @@
+<div>
+  <div>
+    <h2>Search city:</h2>
+    <Input @value={{@value}} {{on 'input' @onTyping}} class="input" />
+    <button type="button" {{on "click" @searchCity}}>Search</button>
+  </div>
+  {{#if @noResult}} <div>No Result</div>{{/if}}
+</div>

@@ -1,13 +1,12 @@
 import { module, test } from 'qunit';
 import { setupTest } from 'pop-pays-ember-interview/tests/helpers';
 
-module('Unit | Model | forecast', function (hooks) {
+module('Unit | Adapter | city', function (hooks) {
   setupTest(hooks);
 
   // Replace this with your real tests.
   test('it exists', function (assert) {
-    let store = this.owner.lookup('service:store');
-    let model = store.createRecord('forecast', {});
-    assert.ok(model);
+    let adapter = this.owner.lookup('adapter:city');
+    assert.ok(adapter);
   });
 });

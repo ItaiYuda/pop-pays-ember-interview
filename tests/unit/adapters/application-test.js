@@ -1,5 +1,5 @@
 import { module, test } from 'qunit';
-import { setupTest } from 'pop-pays/tests/helpers';
+import { setupTest } from 'pop-pays-ember-interview/tests/helpers';
 
 module('Unit | Adapter | application', function (hooks) {
   setupTest(hooks);

@@ -1,0 +1,6 @@
+<div class="forecasts-container">
+  <h3>{{@cityName}}</h3>
+  {{#each @forecasts as |forecast|}}
+       <ForecastCard @forecast={{forecast}} >{{forecast.description}}</ForecastCard>
+  {{/each}}
+</div>

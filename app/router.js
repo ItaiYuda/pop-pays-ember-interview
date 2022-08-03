@@ -8,5 +8,5 @@ export default class Router extends EmberRouter {
 
 Router.map(function () {
   this.route('home', { path: '/' });
-  this.route('forecast', { path: 'location/:location_id' });
+  this.route('location', { path: '/location/:location_id' });
 });
